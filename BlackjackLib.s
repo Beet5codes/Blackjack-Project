@@ -12,7 +12,7 @@ promptPlayer:
 	.asciz "Would you like to hit ('h') or stand ('s'): "
 promptSize = .-promptPlayer
 gamePrompt:
-	.asciz "Would you like play again? ('y'= yes anything other char= no)\n"
+	.asciz "Would you like play again? ('y'= yes any other char= no)\n"
 gameSize = .-gamePrompt
 
 .text  // start o the text segment (Code)
